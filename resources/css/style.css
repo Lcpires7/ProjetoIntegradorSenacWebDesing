@@ -8,7 +8,7 @@ header nav.navbar{
     height: 70px;
     position: absolute;
     width: 100%;
-    border-bottom: solid 1px ;
+    border-bottom: solid 1.5px ;
     
 }
 
@@ -18,7 +18,80 @@ header nav.navbar{
 
 }
 
+/* Footer - Rodapé*/
 
+.footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    background-color: #90d050;
+    border-top: solid 2px black;
+}
+
+footer.footer div.box1 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+footer.footer div.box1 h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav.mapa-do-site ul.menu-mapa li {
+    border-bottom: 1px solid #707070;
+    margin-bottom: 1.5rem;
+}
+
+nav.mapa-do-site ul.menu-mapa li a, .lista-redes-socias li a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    display: inline-block;
+}
+
+.box1, .box2, .box3 {
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex: 1;
+    border-left: 2px white dotted;
+}
+
+footer.footer div.box1 h2.razao-social {
+    margin-top: 0;}
+
+div.box2 h2, div.box3 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+div.box3 li {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 20px;
+    display: inline-block;
+    padding-right: .5rem;
+}
+
+div.copyright p{
+    font-family: sans-serif;
+    text-align: center;
+    padding: .5rem 6rem;
+    background-color: black;
+    color: white;
+}
 
 /* Media  */
 
