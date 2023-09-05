@@ -16,6 +16,7 @@ a.navbar-brand h1 img.logo {
         box-sizing: border-box;
         padding-left: 2rem;
         padding-right: 2rem;
+        background-color: red;
     }
 }
 @media screen and (max-width: 479px) {
@@ -23,5 +24,6 @@ a.navbar-brand h1 img.logo {
         box-sizing: border-box;
         padding-left: 1rem;
         padding-right: 1rem;
+        background-color: pink;
     }
 }
