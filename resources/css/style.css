@@ -1,15 +1,30 @@
-header {
-    position: fixed;
-    width: 100%;
-}
-
 a.navbar-brand h1 img.logo {
+    margin: 0 !important;
+    padding: 0 !important;
     width: 10rem;
 }
 
+header nav.navbar{
+    padding-left: 6rem;
+    padding-right: 6rem;
+    height: 70px;
+    position: absolute;
+    width: 100%;
+    border-bottom: solid 1px ;
+    
+}
 
+.nav-menu li.nav-item{
+    display: inline-block;
+    font-size: 1.3rem;
+
+}
+
+
+
+/* Media  */
 @media screen and (max-width: 1024px) {
-    body{
+    main{
         box-sizing: border-box;
         padding-left: 4rem;
         padding-right: 4rem;
@@ -17,7 +32,7 @@ a.navbar-brand h1 img.logo {
 }
 
 @media screen and (max-width: 768px) {
-    body{
+    main{
         box-sizing: border-box;
         padding-left: 2rem;
         padding-right: 2rem;
@@ -25,7 +40,7 @@ a.navbar-brand h1 img.logo {
     }
 }
 @media screen and (max-width: 480px) {
-    body{
+    main{
         box-sizing: border-box;
         padding-left: 1rem;
         padding-right: 1rem;
