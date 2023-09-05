@@ -29,6 +29,9 @@ header nav.navbar{
         padding-left: 4rem;
         padding-right: 4rem;
     }
+    body{
+        background-color: yellow;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -36,6 +39,8 @@ header nav.navbar{
         box-sizing: border-box;
         padding-left: 2rem;
         padding-right: 2rem;
+    }
+    body{
         background-color: red;
     }
 }
@@ -44,6 +49,8 @@ header nav.navbar{
         box-sizing: border-box;
         padding-left: 1rem;
         padding-right: 1rem;
+    }
+    body{
         background-color: pink;
     }
 
