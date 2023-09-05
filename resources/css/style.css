@@ -1,9 +1,14 @@
+header {
+    position: fixed;
+    width: 100%;
+}
+
 a.navbar-brand h1 img.logo {
     width: 10rem;
 }
 
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
     body{
         box-sizing: border-box;
         padding-left: 4rem;
@@ -11,7 +16,7 @@ a.navbar-brand h1 img.logo {
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     body{
         box-sizing: border-box;
         padding-left: 2rem;
@@ -19,11 +24,15 @@ a.navbar-brand h1 img.logo {
         background-color: red;
     }
 }
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 480px) {
     body{
         box-sizing: border-box;
         padding-left: 1rem;
         padding-right: 1rem;
         background-color: pink;
+    }
+
+    a.navbar-brand h1 img.logo {
+        width: 11rem;
     }
 }
