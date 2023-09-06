@@ -1,4 +1,5 @@
 main{min-height: calc(100vh);}
+
 a.navbar-brand h1 img.logo {
     margin: 0 !important;
     padding: 0 !important;
@@ -31,8 +32,6 @@ header nav.navbar{
     display: flex;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    padding-left: 6rem;
-    padding-right: 6rem;
     background-color: #90d050;
     border-top: solid 2px black;
     flex-wrap: wrap;
@@ -108,8 +107,13 @@ div.copyright p{
     }
     main{
         box-sizing: border-box;
-        padding-left: 4rem !important;
-        padding-right: 4rem !important;
+        padding-left: 6rem !important;
+        padding-right: 6rem !important;
+    }
+    footer{
+        box-sizing: border-box;
+        padding-left: 6rem !important;
+        padding-right: 6rem !important;
     }
     body{
         background-color: yellow;
@@ -118,10 +122,15 @@ div.copyright p{
 
 @media screen and (max-width: 1024px) {
     header nav.navbar{
-        padding-left: 1rem !important;
-        padding-right: 1rem !important;
+        padding-left: 4rem !important;
+        padding-right: 4rem !important;
     }
     main{
+        box-sizing: border-box;
+        padding-left: 4rem !important;
+        padding-right: 4rem !important;
+    }
+    footer{
         box-sizing: border-box;
         padding-left: 4rem !important;
         padding-right: 4rem !important;
@@ -141,6 +150,11 @@ div.copyright p{
         padding-left: 2rem;
         padding-right: 2rem;
     }
+    footer{
+        box-sizing: border-box;
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
     body{
         background-color: red;
     }
@@ -155,11 +169,28 @@ div.copyright p{
         padding-left: 1rem;
         padding-right: 1rem;
     }
+    footer{
+        text-align: center;
+        display: block !important;
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+    .box1, .box2, .box3  {
+        width: 100% !important;
+        display: block;
+    }
+    .box3 ul li{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
     body{
         background-color: pink;
     }
 
     a.navbar-brand h1 img.logo {
-        width: 11rem;
+        width: 10rem;
     }
 }
