@@ -1,6 +1,9 @@
 /* Configuração Padrão da largura da parte principal da tela */
 main{min-height: calc(100vh);}
 
+header.cabecalho {
+    z-index: 1000;
+}
 /* Tamanho da Logo */
 a.navbar-brand h1 img.logo {
     margin: 0 !important;
@@ -13,7 +16,7 @@ header nav.navbar{
     position: fixed;
     width: 100%;
     border-bottom: solid 2px #92d050;
-    
+    z-index: 10000;
 }
 
 /* Itens do menu da barra de navegção */
