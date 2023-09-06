@@ -58,8 +58,8 @@ div.pesquisar button{
 }
 
 /* Filtro */
-.filtro {
-    display: inline-block;
+aside.filtro {
+    display: none;
     margin-right: 20px;
     border: 1px solid black;
     width: 180px;
@@ -117,12 +117,11 @@ a.primeira_coluna {
     width: 150px;
 }
 
-.anuncio {
+aside.anuncio {
+    display: none;
     border: black 1px solid;
     width: 160px;
-    display: inline-block;
     height:600px;
-    
 }
 
 .preco {
@@ -159,4 +158,26 @@ div.opcao {
 
 .verde {
     background-color: #92d050;
+}
+
+/*Medias Query */
+@media screen and (min-width: 1025px) {
+     /* Filtro */
+    aside.filtro, aside.anuncio {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+   
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+@media screen and (max-width: 480px) {
+    main.main section.section div.menu {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
