@@ -1,3 +1,4 @@
+main{min-height: calc(100vh);}
 a.navbar-brand h1 img.logo {
     margin: 0 !important;
     padding: 0 !important;
@@ -6,14 +7,19 @@ a.navbar-brand h1 img.logo {
 
 header nav.navbar{
     height: 70px;
-    position: absolute;
+    position: fixed;
     width: 100%;
-    border-bottom: solid 1.5px ;
+    border-bottom: solid 2px #92d050;
     
 }
 
 .nav-menu li.nav-item{
     display: inline-block;
+    color: #707070;
+    text-decoration: none;
+    font-family: "myriad-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 1.3rem;
 
 }
@@ -22,8 +28,6 @@ header nav.navbar{
 
 .footer {
     width: 100%;
-    position: absolute;
-    bottom: 0px;
     display: flex;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -32,6 +36,7 @@ header nav.navbar{
     background-color: #90d050;
     border-top: solid 2px black;
 }
+
 
 footer.footer div.box1 h2 {
     font-family: Arial, Helvetica, sans-serif;
