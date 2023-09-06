@@ -142,7 +142,7 @@ div.copyright p{
         padding-right: 4rem !important;
     }
     body{
-        background-color: yellow;
+        /* background-color: yellow; */
     }
 }
 
@@ -162,7 +162,7 @@ div.copyright p{
         padding-right: 2rem !important;
     }
     body{
-        background-color: red;
+        /* background-color: red; */
     }
 }
 @media screen and (max-width: 480px) {
