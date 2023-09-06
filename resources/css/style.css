@@ -35,6 +35,7 @@ header nav.navbar{
     padding-right: 6rem;
     background-color: #90d050;
     border-top: solid 2px black;
+    flex-wrap: wrap;
 }
 
 
