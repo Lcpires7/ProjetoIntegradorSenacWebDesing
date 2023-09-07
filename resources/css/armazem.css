@@ -86,19 +86,20 @@ aside.filtro {
 /* Secition dos produtos */
 
 section.exposicao {
-    width: 66%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     vertical-align: text-top;
-    padding-left: 0px !important;
-    padding-right: 0px  !important;
     justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 section.exposicao a{
     display: inline-block;
     width: 150px;
     vertical-align: top;
-    margin: 30px 20px;
+    margin: 30px 10px;
     text-decoration: none;
 }
 
@@ -166,8 +167,12 @@ div.opcao {
         padding-left: 6rem;
         padding-right: 6rem;
     }
+    section.exposicao {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
     div.opcao{
-        width: 16.66666667%;
+        width: 16.66666667% !important;
     }
 }
 
@@ -176,12 +181,18 @@ div.opcao {
         padding-left: 4rem;
         padding-right: 4rem;
     }
+    div.opcao{
+        width: 16.66666667% !important;
+    }
 }
 
 @media screen and (max-width: 768px) {
     div.pesquisar  {
         padding-left: 2rem;
         padding-right: 2rem;
+    }
+    div.opcao{
+        width: 16.66666667% !important;
     }
     
 }
@@ -196,6 +207,6 @@ div.opcao {
     }
 
     div.opcao{
-        width: 33.3333337%;
+        width: 33.3333337% !important;
     }
 }
