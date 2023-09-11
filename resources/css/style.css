@@ -4,11 +4,16 @@ main{min-height: calc(100vh);}
 header.cabecalho {
     z-index: 1000;
 }
+
+.container-fluid {
+    padding: 0px;
+}
+
 /* Tamanho da Logo */
 a.navbar-brand h1 img.logo {
     margin: 0 !important;
     padding: 0 !important;
-    width: 10rem;
+    width: 14rem !important;
 }
 /* Barra de navegação */
 header nav.navbar{
@@ -29,6 +34,40 @@ header nav.navbar{
     font-style: normal;
     font-size: 1.3rem;
 
+}
+
+.nav-menu li.nav-item:hover, div.minha-conta:hover {
+   background-color: #cecbcb;
+}
+
+div.minha-conta {
+    display: flex;
+    font-family: "myriad-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.3rem;
+    align-items: center;
+    width: auto;
+    padding: 8px;
+}
+
+div.minha-conta i img {
+    width: 1.3rem;
+}
+
+div.minha-conta i {
+    margin-right: 5px;
+    display: flex;
+}
+
+div.minha-conta a{
+    display: flex;
+    color: #707070;
+    text-decoration: none;
+}
+
+div.minha-conta a:hover{
+    color: #000000cc;
 }
 
 /* Footer - Rodapé*/
@@ -91,7 +130,7 @@ div.box3 li {
 }
 
 .icon {
-    width: 20px;
+    width: 2rem;
     display: inline-block;
     padding-right: .5rem;
 }
@@ -157,14 +196,36 @@ div.copyright p{
         padding-right: 2rem !important;
     }
     footer{
+        text-align: center;
+        display: block !important;
+        width: 100%;
         box-sizing: border-box;
         padding-left: 2rem !important;
         padding-right: 2rem !important;
+        font-size: 1.3rem;
     }
+
+    .box1, .box2, .box3  {
+        width: 100% !important;
+        display: block;
+        padding-bottom: 30px;
+    }
+    
     body{
         /* background-color: red; */
     }
+    .navbar-collapse{ background-color: white !important;
+        height: 100vh;
+        padding-left: 0 !important;
+        padding-right: 0 !important;  
+        width: calc(100% + 1rem);  
+    }
+    .nav-menu li.nav-item{
+        border-bottom: solid 1px #000000cc;
+    }
 }
+
+
 @media screen and (max-width: 480px) {
     header nav.navbar{
         padding-left: 1rem !important;
@@ -185,10 +246,12 @@ div.copyright p{
         box-sizing: border-box;
         padding-left: 1rem !important;
         padding-right: 1rem !important;
+        font-size: 1.3rem;
     }
     .box1, .box2, .box3  {
         width: 100% !important;
         display: block;
+        padding-bottom: 30px;
     }
     .box3 ul li{
        display: flex;
@@ -200,6 +263,13 @@ div.copyright p{
     }
 
     a.navbar-brand h1 img.logo {
-        width: 10rem;
+        width: 14rem;
     }
-}
+
+    .navbar-collapse{ 
+        background-color: white !important;
+    }
+    .nav-menu li.nav-item{
+        border-bottom: solid 1px #000000cc;
+    }
+}   

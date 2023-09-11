@@ -1,0 +1,96 @@
+section form h1 {
+    font-family: sans-serif;
+    font-size: 2.0rem;
+}
+
+section {
+    height: calc(100vh);
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    border: 1px solid black;
+    padding: 50px;
+}
+
+input {
+    width: 300px;
+    height: 2rem;
+    display: block;
+    margin: 40px 0;
+    padding-left: 15px;
+    font-size: .9rem;
+}
+
+form button {
+    margin-top: 20px;
+    height: 2.5rem;
+    text-align: center;
+    width: 321px;
+    background-color: #92d050;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.0rem;
+}
+
+
+/*Medias Query */
+@media screen and (min-width: 1025px) {
+    /* Filtro */
+   aside.filtro, aside.anuncio {
+       display: inline-block;
+   }
+   div.pesquisar  {
+       padding-left: 6rem;
+       padding-right: 6rem;
+   }
+   section.exposicao {
+       padding-left: 2rem !important;
+       padding-right: 2rem !important;
+   }
+   div.opcao{
+       width: 16.66666667% !important;
+   }
+}
+
+@media screen and (max-width: 1024px) {
+   div.pesquisar  {
+       padding-left: 4rem;
+       padding-right: 4rem;
+   }
+   div.opcao{
+       width: 16.66666667% !important;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   div.pesquisar  {
+       padding-left: 2rem;
+       padding-right: 2rem;
+   }
+   div.opcao{
+       width: 33.3333333% !important;
+   }
+   
+}
+@media screen and (max-width: 480px) {
+   main.main section.section div.menu {
+       display: flex;
+       flex-wrap: wrap;
+   }
+   div.pesquisar  {
+       padding-left: 1rem;
+       padding-right: 1rem;
+   }
+
+   div.opcao{
+       width: 33.3333337% !important;
+   }
+   section.exposicao a{
+       margin-left: 0 !important;
+       margin-right: 0 !important;
+   }
+}

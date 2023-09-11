@@ -1,0 +1,125 @@
+main.main section {
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    padding-top: 140px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+main.main section div.bloco-texto{
+    box-sizing: border-box;
+    padding: 0 20px 30px 0;
+    width: 60%;
+    overflow-y: scroll;
+    margin-bottom: 50px;
+ }
+
+main.main section div.bloco-texto h1, h2{
+    font-weight: bold;
+ }
+
+main.main section div.bloco-texto h1{
+    margin-bottom: 15px;
+    font-family: 'Bungee', cursive;
+    font-size: 1.1rem;
+ }
+
+ main.main section div.bloco-texto h2{
+    margin-bottom: 20px;
+    font-size: 1.7rem;
+ }
+
+main.main section div.bloco-texto nav{
+    margin-bottom: 25px;
+ }
+
+ main.main section div.bloco-texto p{
+    margin-bottom: 70px;
+    line-height: 22px;
+ }
+
+ main.main section div.bloco-texto table{
+    margin-bottom: 70px;
+ }
+
+main.main section div.bloco-texto div nav.menu-secao ul{
+    display: flex;
+    justify-content: space-around;
+ }
+
+main.main section div.bloco-texto div nav.menu-secao ul li{
+    text-align: center;
+    width: 33.3333333%;
+    padding: 8px;
+ }
+
+main.main section div.bloco-texto div nav.menu-secao ul li a{
+    text-decoration: none;
+    color: #000000cc;
+    border-bottom: 1.5px solid #000000cc;
+    font-size: 1rem;
+ }
+
+ main.main section div.bloco-texto div nav.menu-secao ul li:hover {
+    background-color: green;
+ }
+
+ main.main section div.bloco-texto div.secao2 table tr td{
+    height: auto;
+    box-sizing: border-box;
+    padding: 8px;
+    border: 1px solid black;
+ }
+
+ main.main section div.imagem{
+    width: 40%;
+ }
+.img-produto{
+    width: 100%;
+}
+
+
+/*Medias Query */
+@media screen and (min-width: 1025px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+   
+}
+
+@media screen and (max-width: 768px) {
+    main.main section {
+        height: auto !important;
+        flex-wrap: wrap-reverse;
+        padding-top: 100px;
+    }
+    main.main section div.bloco-texto{
+        width: 100%;
+        overflow-y: visible;
+        padding-right: 0;
+    }
+    main.main section div.imagem{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    main.main section div.bloco-texto {
+        font-size: 1.2rem !important;
+    }
+
+    main.main section div.bloco-texto h1{
+        font-size: 1.2rem !important;
+     }
+    
+     main.main section div.bloco-texto h2{
+        font-size: 2rem !important;
+}
+main.main section div.bloco-texto nav ul li a{
+    font-size: 1.2rem !important;
+}
+
+@media screen and (max-width: 480px) {
+  
+}
+}

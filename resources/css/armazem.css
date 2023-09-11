@@ -112,6 +112,12 @@ div.produto {
     display: flex;
     flex-direction: column;
     justify-content: end;
+    color: #000000cc;
+
+}
+
+div.produto:hover {
+    border: 2px solid black;
 }
 
 aside.anuncio {
@@ -192,7 +198,7 @@ div.opcao {
         padding-right: 2rem;
     }
     div.opcao{
-        width: 16.66666667% !important;
+        width: 33.3333333% !important;
     }
     
 }
