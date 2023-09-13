@@ -25,7 +25,7 @@ header nav.navbar{
 }
 
 .nav-menu{
-    height: calc(100vh - 106.38px);
+    height: calc(100vh - 110px);
     justify-content: space-evenly;
     align-items: center;
 
@@ -193,9 +193,31 @@ div.copyright p{
 }
 
 @media screen and (max-width: 768px) {
+
+    .show{
+        padding: 0;
+        margin: 0;
+        transition: none;
+    }
     header nav.navbar{
-        padding-left: 2rem !important;
-        padding-right: 2rem !important;
+        padding-left: 0rem !important;
+        padding-right: 0rem !important;
+    }
+
+    header nav.navbar div.container-fluid a.navbar-brand h1 img.logo {
+        margin-left: 2rem !important;
+    }
+
+    header nav.navbar div.container-fluid button.navbar-toggler{
+        margin-right: 2rem !important;
+    }
+
+    .nav-menu li.nav-item{
+        width: 100%;
+    }
+
+    .nav-menu li.nav-item:hover{
+        background-color: gray;
     }
     section{
         box-sizing: border-box;
@@ -220,12 +242,20 @@ div.copyright p{
     
 
     .navbar-collapse{ 
+        margin-top: 22px;
         background-color: white !important;
         padding-left: 0 !important;
-        padding-right: 0 !important;  
+        padding-right: 0 !important;
     }
-    .nav-menu li.nav-item{
+    .nav-menu li.nav-item a.nav-link{
         border-bottom: solid 1px #000000cc;
+        width: 60%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 10px;
+       
+        box-sizing: border-box;
     }
 }
 
@@ -276,9 +306,5 @@ div.copyright p{
 
     a.navbar-brand h1 img.logo {
         width: 14rem;
-    }
-
-    .nav-menu li.nav-item{
-        border-bottom: solid 1px #000000cc;
     }
 }   
