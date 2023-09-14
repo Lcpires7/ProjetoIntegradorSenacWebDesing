@@ -220,6 +220,10 @@ div.copyright p{
         padding-right: 0rem !important;
     }
 
+    a.navbar-brand h1 img.logo {
+        width: 16rem !important;
+    }
+
     header nav.navbar div.container-fluid a.navbar-brand h1 img.logo {
         margin-left: 2rem !important;
     }
