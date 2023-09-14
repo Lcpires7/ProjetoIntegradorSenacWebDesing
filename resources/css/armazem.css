@@ -168,6 +168,11 @@ div.opcao {
      /* Filtro */
     aside.filtro, aside.anuncio {
         display: inline-block;
+        
+    }
+    div.produto{
+        margin-left: 30px;
+        margin-right: 30px;
     }
     div.pesquisar  {
         padding-left: 6rem;

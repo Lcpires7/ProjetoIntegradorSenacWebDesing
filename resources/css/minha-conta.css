@@ -12,28 +12,40 @@ section {
 }
 
 form {
+    box-sizing: border-box;
+    width: 40%;
     border: 1px solid black;
-    padding: 50px;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: monospace;
+    font-weight: bold;
 }
 
 input {
-    width: 300px;
+    width: 80%;
+    
     height: 2rem;
     display: block;
     margin: 40px 0;
     padding-left: 15px;
-    font-size: .9rem;
+    font-size: 1.2rem;
+    font-family: monospace;
+    font-weight: bold;
 }
 
 form button {
     margin-top: 20px;
     height: 2.5rem;
     text-align: center;
-    width: 321px;
+    width: 80%;
     background-color: #92d050;
     border-radius: 5px;
     font-weight: bold;
-    font-size: 1.0rem;
+    font-size: 1.3rem;
+    font-family: monospace;
+    font-weight: bold;
 }
 
 
@@ -67,14 +79,18 @@ form button {
 }
 
 @media screen and (max-width: 768px) {
-   div.pesquisar  {
-       padding-left: 2rem;
-       padding-right: 2rem;
-   }
-   div.opcao{
-       width: 33.3333333% !important;
-   }
-   
+    form{
+        width: 100%;
+    }
+    main, section {
+        min-height: auto !important;
+        height:auto !important;
+    }
+
+    section {
+        padding-top: 120px;
+        padding-bottom: 50px;
+    }
 }
 @media screen and (max-width: 480px) {
    main.main section.section div.menu {
