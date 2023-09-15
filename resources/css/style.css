@@ -13,7 +13,7 @@ header.cabecalho {
 a.navbar-brand h1 img.logo {
     margin: 0 !important;
     padding: 0 !important;
-    width: 20rem !important;
+    width: 18rem !important;
 }
 /* Barra de navegação */
 header nav.navbar{
@@ -55,7 +55,7 @@ header nav.navbar{
     font-family: "myriad-pro", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
 
 }
 
@@ -68,14 +68,14 @@ div.minha-conta {
     font-family: "myriad-pro", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     align-items: center;
     width: auto;
     padding: 8px;
 }
 
 div.minha-conta i img {
-    width: 1.3rem;
+    width: 1.6rem;
 }
 
 div.minha-conta i {
