@@ -33,6 +33,13 @@ header nav.navbar{
     flex-direction: column;
 }
 
+.menu-geral {
+    height: 100%;
+    width: 100%;
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
 .minha-conta {
     height: auto;
     width: 100%;

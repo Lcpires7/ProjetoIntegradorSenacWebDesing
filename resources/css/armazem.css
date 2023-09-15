@@ -63,7 +63,7 @@ main.main section{
 aside.filtro {
     display: none;
     border: 1px solid black;
-    width: 180px;
+    width: 250px;
     vertical-align: text-top;
     margin-top: 30px;
     height: 400px;
@@ -126,6 +126,7 @@ aside.anuncio {
     width: 160px;
     height:600px;
     margin-top: 30px;
+    margin-left: 50px;
 }
 
 .preco {
